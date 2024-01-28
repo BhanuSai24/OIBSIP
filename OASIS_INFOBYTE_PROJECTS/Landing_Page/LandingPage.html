@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="LandingPage_Styling.css">
+
+    <header>
+   <div class="navbar">
+  <img src="data:image/png;base64,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" alt="Logo">
+  <ul class="nav-links">
+    <li><a href="#">Store</a></li>
+      <div class="dropdown">
+        <li><a href="#" class="dropbtn">Phone</a></li>
+          <div class="dropdown-content">
+            <a href="#" style="font-family:amerigo;">XIAOMI</a>
+            <a href="#">Redmi</a>
+          </div>
+      </div>
+      <div class="dropdown1">
+        <li><a href="#" class="dropbtn1">Tv&SmartHome</a></li>
+          <div class="dropdown-content1">
+             <p class="heading"><b>TV</b></p>
+              <a href="#">Tv Accessories</a>
+              <a href="#">QLED TV&OLED TV</a>
+              <a href="#">Redmi TV</a>
+              <a href="#"> Xiaomi TV</a>
+              <p class="heading1" style="padding-top:10px;margin:10px;"><b>Smarter Living</b></p>
+              <a href="#">Air Fryer</a>
+              <a href="#">Smart Fan</a>
+              <a href="#">Smart Lights</a>
+              <a href="#">Security Cameras</a>
+           </div>
+       </div>
+
+       <div class="dropdown2">
+        <li><a href="#" class="dropbtn2">Laptop&Tablet</a></li>
+          <div class="dropdown-content2">
+           <p class="heading2"><b>Laptops</b></p>
+           <a href="#">Laptop Accessories</a>
+           <a href="#">Redmi Book</a>
+           <a href="#"> Xiaomi Notebook</a>
+           <p class="heading3" style="padding-top:12px;margin:10px;"><b>Tablets</b></p>
+           <a href="#">Tablet Accessories</a>
+           <a href="#">Redmi Pad</a>
+           <a href="#"> Xiaomi Pad</a>
+        </div>
+    </div>
+    </ul>
+     <div class="nav-link">
+       <a href="#"><img src="data:image/jpeg;base64,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" alt="Button Image"></a>
+     </div>
+    </div>
+  </header> 
+</head>
+<body>
+<section>
+    <a href="#"><img style="margin-top:25px;width:100%;height:250px"src="https://www.91-cdn.com/hub/wp-content/uploads/2022/05/Redmi-Note-12-1.jpg" alt="images"></a>
+         <div class="grid-tem1">
+  <img style="width:120px;height:70px;float:right;position:flex;"src="https://www.91-cdn.com/hub/wp-content/uploads/2023/01/POCO-Pods-Redmi-Buds-4-Active.png" >
+       <p style="padding-left:30px;padding-right:50px;margin-left:30px;background-image:linear-gradient(to bottom right,#85C1E9,#333);height:70px;color:white;font-family:Arial;font-size:11px;box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);border-radius:5px;"><br>Redmi Buds 4 Active</br><small><br>Up to 30 hr of battery life</br>₹1,399</small></p>
+</div>
+<div class="grid-tem1">
+  <img style="width:120px;height:70px;float:right;position:flex;" src="https://www.91-cdn.com/hub/wp-content/uploads/2023/03/Redmi-A2-FI.png">
+        <p style="background-image:linear-gradient(to top left,#AEB6BF,#8E44AD);padding-left:30px;height:70px;color:white;font-family:Arial;font-size:11px;box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);border-radius:5px;"><br>Redmi A2</br><br><small>Limited Time deal</br>₹5,899</small></p>
+<div class="grid-tem1">
+<img style="width:120px;height:70px;float:right;position:flex;"src="https://assets.mspimages.in/gear/wp-content/uploads/2022/02/redmi-launched.jpg">
+<p style="padding-left:30px;height:70px;color:white;font-family:Arial;font-size:11px;box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);border-radius:5px;background-image:linear-gradient(to bottom right,#D1F2EB,#138D75);"><br>Best Selling Smart Phones</br><small><br>Get More! Spend Less</br></small></p>
+</div>
+<div class="grid-container">
+  <div class="grid-item">
+    <p style="font-family:Arial;font-size:10px;margin-top:0px;">          <br>Redmi A2</br></p>
+    <p style="color:#82E0AA;font-family:Arial;font-size:10px;border:1px solid green;margin-right:60px;text-align:center;border-radius:2px;background:#EAFAF1;">New</p>
+<p style="color:red;font-family:Arial;font-size:10px;border:1px solid red;text-align:center;border-radius:2px;background:#FADBD8;">34% off</p>
+<p style="font-size:10px;float:left;"><br>From </br>
+<br>₹6,299</br>
+<del style="color:grey;">₹8,299</p>
+
+    <img style="width:45px;height:60px;float:right;" src="https://img4.gadgetsnow.com/gd/images/products/additional/large/G390501_View_1/mobiles/smartphones/xiaomi-redmi-a1-32-gb-light-blue-2-gb-ram-.jpg">
+  </div>
+  <div class="grid-item">
+    <p style="font-family:Arial;font-size:10px;margin-top:0px;"><br>Redmi 12C<br></p>
+    <p style="color:#82E0AA;font-family:Arial;font-size:10px;border:1px solid green;margin-right:60px;text-align:center;border-radius:2px;background:#EAFAF1;">New</p>
+    <p style="color:red;font-family:Arial;font-size:10px;border:1px solid red;text-align:center;border-radius:2px;background:#FADBD8;">39% off</p>
+    <p style="font-size:10px;float:left;"><br>From </br>
+<br>₹8,499</br>
+<del style="color:grey;">₹13,999</p>
+    <img style="width:45px;height:60px;float:right;" src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/i/z/t/12c-22120rn86i-redmi-original-imagzeu8uqguykeh.jpeg?q=70">
+  </div>
+  <div class="grid-item">
+    <p style="font-family:Arial;font-size:10px;margin-top:0px;"><br>Redmi Note 12 Pro 5G</br></p>
+    <p style="color:#82E0AA;font-family:Arial;font-size:10px;border:1px solid green;margin-right:60px;text-align:center;border-radius:2px;background:#EAFAF1;">New</p>
+<p style="color:red;font-family:Arial;font-size:10px;border:1px solid red;text-align:center;border-radius:2px;background:#FADBD8;">14% off</p>
+    <p style="font-size:10px;float:left;"><br>From </br>
+<br>₹23,999</br>
+<del style="color:grey;">₹27,999</p>
+    <img style="width:45px;height:60px;float:right;"src="https://m.media-amazon.com/images/I/61ZWfbRjP0L._SY741_.jpg">
+  </div>
+  <div class="grid-item">
+    <p style="font-family:Arial;font-size:10px;margin-top:0px;"><br>Redmi 11 Prime 5G<br></p>
+    <p style="color:#82E0AA;font-family:Arial;font-size:10px;border:1px solid green;margin-right:60px;text-align:center;border-radius:2px;background:#EAFAF1;">New</p>
+    <p style="color:red;font-family:Arial;font-size:10px;border:1px solid red;text-align:center;border-radius:2px;background:#FADBD8;">18% off</p>
+    <p style="font-size:10px;float:left;"><br>From </br>
+<br>₹12,999</br>
+<del style="color:grey;">₹15,999</p>
+    <img style="width:45px;height:60px;float:right;"src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/m/m/3/11-prime-mzb0ceoin-redmi-original-imagzqvrz4mvf6tx.jpeg?q=70">
+  </div>
+</div>
+<div class="grid-item2">
+<p style="padding-left:30px;width:100%;height:70px;color:white;font-family:Arial;font-size:11px;box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);border-radius:5px;background-image:linear-gradient(to top left,#85C1E9,#2C3E50);"><br>Exchange Bonus</br>
+<br><small>of Up to ₹10,500*</small></br></p>
+  <img style="width:120px;height:70px;float:right;position:flex;"src="https://fs.npstatic.com/userfiles/7687254/image/Xiaomi_Smartphones_2023-w810h462.jpg">
+</div>
+<div class="grid-container">
+  <div class="grid-item">
+    <p style="font-family:Arial;font-size:10px;margin-top:0px;">          <br>Redmi Pad</br></p>
+<p style="color:red;font-family:Arial;font-size:10px;border:1px solid red;text-align:center;border-radius:2px;background:#FADBD8;">31% off</p>
+<p style="font-size:10px;float:left;"><br>From </br>
+<br>₹14,999</br>
+<del style="color:grey;">₹21,999</p>
+
+    <img style="width:50px;height:65px;float:right;" src="https://m.media-amazon.com/images/I/51DgLLc+LFL._SY450_.jpg">
+  </div>
+  <div class="grid-item">
+    <p style="font-family:Arial;font-size:10px;margin-top:0px;"><br>MI Notebook Pro<br></p>
+    <p style="color:red;font-family:Arial;font-size:10px;border:1px solid red;text-align:center;border-radius:2px;background:#FADBD8;">32% off</p>
+    <p style="font-size:10px;float:left;"><br>From </br>
+<br>₹46,999</br>
+<del style="color:grey;">₹69,999</p>
+    <img style="width:50px;height:50px;float:right;padding-top:7px;" src="https://www.notebookcheck.net/typo3temp/_processed_/b/e/csm_4zu3mipro_6b833f1cc7.jpg">
+  </div>
+  <div class="grid-item">
+    <p style="font-family:Arial;font-size:10px;margin-top:0px;"><br>Xiaomi Pad 6</br></p>
+    <p style="color:#82E0AA;font-family:Arial;font-size:10px;border:1px solid green;margin-right:60px;text-align:center;border-radius:2px;background:#EAFAF1;">New</p>
+<p style="color:red;font-family:Arial;font-size:10px;border:1px solid red;text-align:center;border-radius:2px;background:#FADBD8;">32% off</p>
+    <p style="font-size:10px;float:left;"><br>From </br>
+<br>₹26,999</br>
+<del style="color:grey;">₹39,999</p>
+    <img style="width:45px;height:60px;float:right;"src="https://img3.gadgetsnow.com/gd/images/products/additional/large/G369773_View_1/mobiles/tablets/xiaomi-pad-6-11-inches-wi-fi-tablets-black-128gb-6gb-ram-.jpg">
+  </div>
+  <div class="grid-item">
+    <p style="font-family:Arial;font-size:10px;margin-top:0px;"><br>Mi Notebook Ultra<br></p>
+    <p style="color:red;font-family:Arial;font-size:10px;border:1px solid red;text-align:center;border-radius:2px;background:#FADBD8;">30% off</p>
+    <p style="font-size:10px;float:left;"><br>From </br>
+<br>₹49,999</br>
+<del style="color:grey;">₹71,999</p>
+    <img style="width:45px;height:60px;float:right;"src="https://s3b.cashify.in/gpro/uploads/2022/02/01012952/xiaomi-mi-notebook-ultra-core-i5-11th-gen-16-gb-512-gb-ssd-windows-10-front.jpg">
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <p style="color:white;font-family:Arial;font-size:12px;">@ 2023 XIAOMI Redmi. All rights reserved.</p>
+      <nav style="font-size:11px;">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
